@@ -135,7 +135,7 @@ $node_geo    = $is_direct ? '同上 (直连)' : getGeoLocation($node_ip);
         <div class="ip-display"><?php echo $visitor_ip; ?></div>
         <div class="geo-display">📍 <?php echo $visitor_geo; ?></div>
         <div style="font-size: 0.8rem; color: #666; margin-top: 10px;">
-            (这是**缓存生成时**的访客 IP)
+            (这是<b>缓存生成时</b>的访客 IP)
         </div>
     </div>
 
